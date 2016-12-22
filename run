@@ -1,0 +1,2 @@
+rm -rf myDecisionTreeClassificationModel
+spark-submit --class Spark.Examples.DecisionTree --master local[4] target/Examples-0.0.1-SNAPSHOT.jar
